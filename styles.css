@@ -1,0 +1,44 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full height of the screen */
+    width: 100vw;  /* Full width of the screen */
+    background-color: #f4f4f4;  /* Light gray background */
+    overflow: hidden; /* Prevent scrolling if needed */
+}
+
+/* PDF Viewer Container */
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  /* 100% width of the viewport */
+    height: 100%; /* 100% height of the viewport */
+    background-color: #fff;  /* White background */
+    overflow: hidden;  /* Prevents any overflow */
+}
+embed{
+    left: 0;
+    position: fixed;
+    top: 0;
+}
+body,embed,html{
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+/* Embed PDF 
+
